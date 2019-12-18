@@ -1,0 +1,25 @@
+{
+  "name": "org.langed.web20",
+  "version": "0.0.0",
+  "description": "Langkon web-site",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langkon/web20.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/langkon/web20/issues"
+  },
+  "homepage": "https://github.com/langkon/web20#readme",
+  "dependencies": {
+    "angular": "^1.7.9",
+    "webpack": "^4.41.3"
+  }
+}
