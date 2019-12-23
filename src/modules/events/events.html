@@ -1,0 +1,7 @@
+<div>{{ vm.events | json }}</div>
+<ul>
+  <li ng-repeat='e in vm.events'>
+    <a ui-sref='event({event_id: e.event_id}'>{{ e.name }}</a>
+  </li>
+</ul>
+
