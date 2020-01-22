@@ -1,0 +1,6 @@
+<div>{{ vm.users | json }}</div>
+<ul>
+  <li ng-repeat='e in vm.users'>
+    <a ui-sref='user({user_id: e.user_id}'>{{ e.name }}</a>
+  </li>
+</ul>
