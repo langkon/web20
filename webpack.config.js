@@ -1,3 +1,4 @@
+var webpack = require('webpack');
 var path = require('path');
 var htmlWebpackPlugin = require('html-webpack-plugin');
 var extractTextWebpackPlugin = require('extract-text-webpack-plugin');
@@ -8,7 +9,7 @@ module.exports = {
       port: 3000,
       host: process.env.PUBLIC ? '0.0.0.0' : 'localhost',
       disableHostCheck: true,
-      contentBase: './dist'
+      contentBase: './src'
     },
     entry: './src/index.js',
     module: {
@@ -19,11 +20,13 @@ module.exports = {
         ]
     },
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        filename: '[name].bundle.js',
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
     plugins: [
       new htmlWebpackPlugin({ template: 'src/index.html', inject: 'head', hash: true }),
-      new extractTextWebpackPlugin('style.css')
+      new extractTextWebpackPlugin('style.css'),
+      new webpack.HotModuleReplacementPlugin()
     ]
 };
