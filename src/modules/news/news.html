@@ -1,0 +1,7 @@
+<div>{{ vm.news | json }}</div>
+<ul>
+  <li ng-repeat='e in vm.news'>
+    <a ui-sref='new({new_id: e.new_id}'>{{ e.name }}</a>
+  </li>
+</ul>
+

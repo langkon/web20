@@ -1,4 +1,4 @@
-import angluar from 'angular';
+ï»¿import angluar from 'angular';
 
 import './users.scss';
 
@@ -8,8 +8,8 @@ class usersController {
     constructor() {
         'ngInject';
         this.users = [
-            { user_id: 1, name: '×èï' },
-            { user_id: 2, name: 'Äèîíèñ' }
+            { user_id: 1, name: 'Ğ§Ğ¸Ğ¿' },
+            { user_id: 2, name: 'Ğ”Ğ¸Ğ¾Ğ½Ğ¸Ñ' }
         ];
     }
 };
