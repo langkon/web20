@@ -1,0 +1,7 @@
+<div>{{ vm.centers | json }}</div>
+<ul>
+    <li ng-repeat='e in vm.centers'>
+        <a ui-sref='center({center_id: e.center_id}'>{{ e.name }}</a>
+    </li>
+</ul>
+

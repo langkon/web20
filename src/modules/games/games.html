@@ -1,0 +1,7 @@
+<div>{{ vm.games | json }}</div>
+<ul>
+    <li ng-repeat='e in vm.games'>
+        <a ui-sref='game({game_id: e.game_id}'>{{ e.name }}</a>
+    </li>
+</ul>
+
