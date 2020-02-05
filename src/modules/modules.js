@@ -3,5 +3,10 @@ import './users/users.js';
 
 angular.module('modules', [
     'events',
-    'users'
+    'users',
+    'center',
+    'games',
+    'head',
+    'news',
+    'org'
 ]);
