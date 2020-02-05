@@ -8,8 +8,8 @@ class orgsController {
     constructor() {
         'ngInject';
         this.s = [
-            { center_id: 1, name: 'Дионис' },
-            { center_id: 2, name: 'Иля' }
+            { center_id: 1, name: 'ЛангКон - это мероприятие посвященное кабинетным и павильонным ролевым играм.' }
+          
         ];
     }
 };
