@@ -1,17 +1,17 @@
 import './events/events.js';
 import './users/users.js';
-import './center/center.js';
+import './center/centers.js';
 import './games/games.js';
-import './header/header.js';
+import './header/headers.js';
 import './news/news.js';
-import './org/org.js';
+import './org/orgs.js';
 
 angular.module('modules', [
     'events',
     'users',
-    'center',
+    'centers',
     'games',
-    'header',
+    'headers',
     'news',
-    'org'
+    'orgs'
 ]);

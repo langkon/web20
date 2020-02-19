@@ -7,7 +7,7 @@ import template from './centers.html';
 class orgsController {
     constructor() {
         'ngInject';
-        this.s = [
+        this.centers = [
             { center_id: 1, name: 'ЛангКон - это мероприятие посвященное кабинетным и павильонным ролевым играм.' }
           
         ];
