@@ -1,10 +1,10 @@
 import './events/events.js';
 import './users/users.js';
-import './center/centers.js';
+import './centers/centers.js';
 import './games/games.js';
-import './header/headers.js';
+import './headers/headers.js';
 import './news/news.js';
-import './org/orgs.js';
+import './orgs/orgs.js';
 
 angular.module('modules', [
     'events',
