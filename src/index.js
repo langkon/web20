@@ -18,5 +18,5 @@ let appComponent = {
   controllerAs: 'vm'
 };
 
-var appModule = angular.module('app', ['modules'])
+var app = angular.module('app', ['modules'])
 .component('app', appComponent);
