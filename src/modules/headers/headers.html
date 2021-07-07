@@ -1,0 +1,7 @@
+<div>{{ vm.headers | json }}</div>
+<ul>
+    <li ng-repeat='e in vm.headers'>
+        <a ui-sref='header({header_id: e.header_id}'>{{ e.name }}</a>
+    </li>
+</ul>
+

@@ -1,0 +1,7 @@
+<div>{{ vm.orgs | json }}</div>
+<ul>
+    <li ng-repeat='e in vm.orgs'>
+        <a ui-sref='org({org_id: e.org_id}'>{{ e.name }}</a>
+    </li>
+</ul>
+
